@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .column{
+                float:left;
+                width: 50%;
+                height: 400px;
+                padding: 5px;
+                border: 1px solid black;
+            }
+            .row :first{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            div{
+                border: 2px black;
+            
+            }
+          
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <center><div class="column" style="background-color:blue;">
+                <h2>Login to your Account</h2>
+                <label>Email Address</label><br>
+                <input type="email"placeholder=email@example.org><br><br>
+                <label>password</label><br><br>
+                    <input type="password"placeholder=.......><br><br>
+                    <button style="background-color: teal; color: white;">Login</button>
+                    <h3>Don't have an account? Register</h3>
+                    <h4>Forgotten your password? Recover Password</h4></div></center>
+            </div>
+            <div class="column" style="background-color:cornflowerblue;">
+                <h2>Create Your Account</h2>
+                <label>Company name</label><br>
+                <input type="text"placeholder= BiteBiteCreative><br>
+                <label>Your name</label><br>
+                <input type="text"placeholder=OlieSarker>
+                
+
+
+            </div>
+
+        </div>
+    </body>
+</html>
